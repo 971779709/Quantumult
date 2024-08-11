@@ -1,15 +1,14 @@
-#!url=http://script.hub/file/_start_/https://gist.githubusercontent.com/Yu9191/5d7cbbf36a7db7e92623a1e5ab079dce/raw/xiaolanyixue.sgmodule/_end_/xiaolanyixue.sgmodule?type=qx-rewrite&target=shadowrocket-module&del=true
 #!name=小蓝医学（蓝基因)
 #!desc=解锁题库
 
 [Script]
 通用 = type=http-response, pattern=^https?://edu.lezaitizhong.com/(shop|vod|tiku|classify)/(goods|class_list|getclassifychapter|get_question_media|sheet|get_collection_list|get_course_info|get_cate_vod_list), script-path=https://github.com/971779709/Quantumult/raw/main/Ljy1.js, requires-body=true, max-size=0
 
-人机 = type=http-response, pattern=https://edu.lezaitizhong.com/tiku/machine/sheet_machine_category?, script-path=https://gist.githubusercontent.com/Yu9191/0e25bfde48d0c11b8cabdb685cfd67a7/raw/xiaolanyixue2.js, requires-body=true, max-size=0
+人机 = type=http-response, pattern=https://edu.lezaitizhong.com/tiku/machine/sheet_machine_category?, script-path=https://github.com/971779709/Quantumult/raw/main/Ljy2.js, requires-body=true, max-size=0
 
-考前急救小抄 = type=http-response, pattern=https://edu.lezaitizhong.com/tiku/lecture/chapter?, script-path=https://gist.githubusercontent.com/Yu9191/0e25bfde48d0c11b8cabdb685cfd67a7/raw/xiaolanyixue2.js, requires-body=true, max-size=0
+考前急救小抄 = type=http-response, pattern=https://edu.lezaitizhong.com/tiku/lecture/chapter?, script-path=https://github.com/971779709/Quantumult/raw/main/Ljy2.js, requires-body=true, max-size=0
 
-考神笔记 = type=http-response, pattern=https://edu.lezaitizhong.com/tiku/lecture/chapter, script-path=https://gist.githubusercontent.com/Yu9191/0e25bfde48d0c11b8cabdb685cfd67a7/raw/xiaolanyixue2.js, requires-body=true, max-size=0
+考神笔记 = type=http-response, pattern=https://edu.lezaitizhong.com/tiku/lecture/chapter, script-path=https://github.com/971779709/Quantumult/raw/main/Ljy2.js, requires-body=true, max-size=0
 
 [MITM]
 hostname = %APPEND% edu.lezaitizhong.com
