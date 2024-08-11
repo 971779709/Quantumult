@@ -1,8 +1,9 @@
-#!name= 解螺旋
+#!name= kaoyaoshi
 #!desc= 解锁内容
 
 [Script]
-kaoyaoshi = type=http-response, pattern=https:\/\/gateway\.chaojitiku\.com\/h5\/(goods\/goodsInfo\/queryUserPayGoods|question\/testing\/getAppInfo), script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/kaoyaoshi.js, requires-body=true, max-size=-1, timeout=60
+kaoyaoshi = type=http-response, pattern=https:\/\/gateway\.chaojitiku\.com\/h5\/(goods\/goodsInfo\/queryUserPayGoods|question\/testing\/getAppInfo), script-path=
+https://github.com/971779709/Quantumult/raw/main/kaoyaoshi.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% gateway.chaojitiku.com
