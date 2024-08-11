@@ -1,0 +1,27 @@
+#!name= 小蓝医学（蓝基因)
+#!desc= 密钥@三岁
+
+
+[Script]
+
+
+
+通用 = type=http-response,pattern=^https?://edu.lezaitizhong.com/(shop|vod|tiku|classify)/(goods|class_list|getclassifychapter|get_question_media|sheet|get_collection_list|get_course_info|get_cate_vod_list),requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/Yu9191/89c24ef2e5837ef588fadb025f2b031d/raw/xiaolanyixue.js
+
+经典高频题 = type=http-response,pattern=https://edu.lezaitizhong.com/tiku/getclassifychapter,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/Yu9191/89c24ef2e5837ef588fadb025f2b031d/raw/xiaolanyixue.js
+
+
+
+
+
+人机 = type=http-response,pattern=https://edu.lezaitizhong.com/tiku/machine/sheet_machine_category?,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/Yu9191/0e25bfde48d0c11b8cabdb685cfd67a7/raw/xiaolanyixue2.js
+
+
+考前急救小抄  = type=http-response,pattern=https://edu.lezaitizhong.com/tiku/lecture/chapter?,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/Yu9191/0e25bfde48d0c11b8cabdb685cfd67a7/raw/xiaolanyixue2.js
+
+考神笔记  = type=http-response,pattern= https://edu.lezaitizhong.com/tiku/lecture/chapter,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/Yu9191/0e25bfde48d0c11b8cabdb685cfd67a7/raw/xiaolanyixue2.js
+
+
+
+[MITM]
+hostname = %APPEND% edu.lezaitizhong.com
