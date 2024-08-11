@@ -5,6 +5,6 @@
 jieluoxuan = type=http-response, pattern= ^http[s]?:\/\/(app.helixlife.cn|api.helixlife.cn)\/api\/v1\/(user/overviews|user/users/profile|edu/trainings|edu/courses)\/*, script-path= https://github.com/971779709/Quantumult/raw/main/kaoyaoshi.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
-hostname = %APPEND% app.helixlife.cn,api.helixlife.cn
+hostname = %APPEND% gateway.chaojitiku.com
 
 
