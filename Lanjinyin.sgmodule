@@ -3,7 +3,7 @@
 #!desc=解锁题库
 
 [Script]
-通用 = type=http-response, pattern=^https?://edu.lezaitizhong.com/(shop|vod|tiku|classify)/(goods|class_list|getclassifychapter|get_question_media|sheet|get_collection_list|get_course_info|get_cate_vod_list), script-path=https://gist.githubusercontent.com/Yu9191/89c24ef2e5837ef588fadb025f2b031d/raw/xiaolanyixue.js, requires-body=true, max-size=0
+通用 = type=http-response, pattern=^https?://edu.lezaitizhong.com/(shop|vod|tiku|classify)/(goods|class_list|getclassifychapter|get_question_media|sheet|get_collection_list|get_course_info|get_cate_vod_list), script-path=https://github.com/971779709/Quantumult/raw/main/Ljy1.js, requires-body=true, max-size=0
 
 人机 = type=http-response, pattern=https://edu.lezaitizhong.com/tiku/machine/sheet_machine_category?, script-path=https://gist.githubusercontent.com/Yu9191/0e25bfde48d0c11b8cabdb685cfd67a7/raw/xiaolanyixue2.js, requires-body=true, max-size=0
 
