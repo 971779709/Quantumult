@@ -4,7 +4,7 @@
 
 [rewrite_local]
 
-https:\/\/gdd\.aixuexi\.com\/fox\/pad\/lesson\/(detail\/ispart|list) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/gdd.js
+https:\/\/gdd\.aixuexi\.com\/fox\/pad\/lesson\/(detail\/ispart|list) url script-response-body https://github.com/971779709/Quantumult/raw/main/gdd2.js
 [mitm]
 hostname = gdd.aixuexi.com
 
