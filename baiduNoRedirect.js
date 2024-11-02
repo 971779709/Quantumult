@@ -1,8 +1,7 @@
 /*
-引用地址 https://github.com/app2smile/rules/blob/master/js/baidu-no-redirect.js
 
 [rewrite_local]
-^https?:\/\/boxer\.baidu\.com\/scheme\?scheme url script-response-header https://gitlab.com/RuCu6/QuanX/-/raw/main/Scripts/baidu/baiduNoRedirect.js
+^https?:\/\/boxer\.baidu\.com\/scheme\?scheme url script-response-header https://raw.githubusercontent.com/971779709/Quantumult/refs/heads/main/baiduNoRedirect.js
 
 [mitm]
 hostname = boxer.baidu.com
